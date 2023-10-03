@@ -1,0 +1,132 @@
+/* Set margin, width, and background color for the entire page */
+body{
+    margin: 0px;
+    width: auto;
+    background-color: rgb(159, 157, 157);
+}
+/* Apply font family to paragraphs and list items */
+p, li{
+    font-family: 'AR One Sans', sans-serif;
+}
+
+/* Style for the main heading (h1) */
+h1{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 65px;
+}
+
+/* Style for the header section */
+header{
+    text-align: center;
+    background-color: #e41e1e;
+    padding: 10px 15px;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
+    height: 240px;
+}
+
+/* Style for links and list items */
+a, li {
+    color: rgb(81, 50, 35);
+    text-decoration: none;
+    font-size: 20px;
+}
+
+/* Style for the video iframe */
+.video .video-1 iframe{
+    width: 1260px;
+    height: 580px;
+}
+
+/* Style for the lyrics section */
+.lyrics{
+    display: flex;
+    justify-content: center;
+}
+/* Style for the div within the lyrics section */
+.lyrics > div{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+/* Style for the "slang" text */
+.slang{
+    font-size: 45px;
+    color: #bd1212;
+}
+/* Style for the "afghan" text */
+.afghan{
+    font-size: 30px;
+    color: darkcyan;
+}
+/* Style for the "yuba" text */
+.yuba{
+    font-size: 25px;
+    color: #65205c;
+}
+/* Style for the "boote" text */
+.boote{
+    font-size: 20px;
+    color: crimson;
+}
+/* Style for the first line of the first paragraph within the first div */
+div:first-of-type p::first-line {
+    font-weight: 600;
+    font-size: 32px;
+}
+/* Style for the first letter of the first paragraph within the first div */
+div:first-of-type p::first-letter {
+    font-weight: 600;
+    font-size: 42px;
+}
+/* Hover effect for links within the header with class "head" */
+.head a:hover{
+    color: #ffffff;
+}
+/* Hover effect for links within the header */
+header a:hover{
+    color: #ffffff;
+}
+/* Hover effect for the "yuba" text */
+.yuba:hover{
+    color: yellowgreen;
+
+}
+/* Hover effect for the "boote" text */
+.boote:hover{
+    color: plum;
+}
+/* Hover effect for the "afghan" text */
+.afghan:hover{
+    color: aqua;
+}
+/* Hover effect for the "slang" text */
+.slang:hover{
+    color: red;
+}
+
+/* Hover effect for paragraphs within div elements */
+div p:hover{
+    color: white;
+}
+
+/* Style for the footer section */
+footer{
+    background-color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+/* Style for the footer heading */
+footer h2{
+    font-family: 'Sofia Sans Condensed', sans-serif;
+    font-size: 35px;
+    color: white;
+}
+/* Style for the elements within the footer */
+footer div{
+    display: flex;
+    justify-content: space-evenly;
+}
